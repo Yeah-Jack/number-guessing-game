@@ -1,6 +1,6 @@
-# Rust Guessing Game
+# Number Guessing Game
 
-Welcome to the Rust Guessing Game! This is a simple command-line game written in Rust where the player has to guess a randomly generated number.
+Welcome to the Number Guessing Game! This is a simple command-line game where the player has to guess a randomly generated number.
 
 ## Getting Started
 
