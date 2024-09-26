@@ -1,9 +1,11 @@
 #include <iostream>
 
 int main() {
-  int number, guess, tries;
+  int number;
+  int guess;
+  int tries = 0;
 
-  srand(time(NULL));
+  srand(static_cast<unsigned int>(time(NULL)));
   number = rand() % 100 + 1;
 
   do {
