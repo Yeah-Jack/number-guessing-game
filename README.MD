@@ -1,5 +1,8 @@
 # Number Guessing Game
 
+[![DeepSource](https://app.deepsource.com/gh/Yeah-Jack/number-guessing-game.svg/?label=active+issues&show_trend=true&token=TX_wC6Epphy3gqEf7qV6iWEY)](https://app.deepsource.com/gh/Yeah-Jack/number-guessing-game/)
+[![CodeFactor](https://www.codefactor.io/repository/github/yeah-jack/number-guessing-game/badge)](https://www.codefactor.io/repository/github/yeah-jack/number-guessing-game)
+
 Welcome to the Number Guessing Game! This is a simple command-line game where the player has to guess a randomly generated number.
 
 ## Getting Started
