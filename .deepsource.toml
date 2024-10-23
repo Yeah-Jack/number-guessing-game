@@ -1,0 +1,16 @@
+version = 1
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[analyzers]]
+name = "cxx"
+
+[[transformers]]
+name = "clang-format"
+
+[[transformers]]
+name = "rustfmt"
