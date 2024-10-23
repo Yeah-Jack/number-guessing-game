@@ -1,12 +1,16 @@
+#include <Windows.h>
 #include <iostream>
+#include <random>
 
 int main() {
   int number;
   int guess;
   int tries = 0;
 
-  srand(static_cast<unsigned int>(time(NULL)));
-  number = rand() % 100 + 1;
+  std::random_device rd;
+  std::uniform_int_distribution<int> dist(1, 100);
+
+  number = dist(rd);
 
   do {
     std::cout << "Enter a guess between 1 to 100: ";
